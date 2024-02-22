@@ -1,0 +1,51 @@
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* White text color */
+  font-family: Arial, sans-serif; /* Use your preferred font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align items to the bottom */
+  height: 50vh; /* Set height to half of viewport height */
+  width: 100%; /* Ensure full width */
+}
+
+.message-interface {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px; /* Adjust width as needed */
+  margin-bottom: 20px; /* Add some space between interface and bottom */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff; /* White border */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  color: #ffffff; /* White text color */
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue button color */
+  color: #ffffff; /* White text color */
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
